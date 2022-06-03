@@ -1,0 +1,143 @@
+.sidebar{
+    width: 60px;
+    height: 100%;
+    background: linear-gradient( #ff686f, #ff9654 );
+    text-align: center;
+}
+
+.sidebarListItem{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    opacity:0.7;
+} 
+.sidebarListItem:hover{
+    box-shadow: 0 0 0 1px #fff inset;
+    opacity: 1;
+}
+
+.sidebarMenu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+
+
+.on{
+    opacity: 1;
+}
+
+.sidebarHeader{
+    height:132px;
+}
+
+.sidebarHeader .sidebarList{
+    margin-top: 30px;
+}
+
+.sidebarContent{
+    flex: 1;
+}
+
+.sidebarContent .sidebarList:first-child{
+    margin-top: 40px;
+}
+
+.sidebarContent .sidebarList{
+    margin-top: 20px;
+}
+
+.sidebarFooter{
+    height:174px;
+    position:fixed;
+    bottom: 0;
+    width: 60px;  
+}
+
+.sidebarFooter .sidebarList{
+    margin-top: 20px;
+}
+
+@media(max-height: 600px) {
+    .sidebarFooter{
+        position:relative;
+    }
+}
+
+
+.mainImg{
+    background-image: url('/public/images/sidebar/cellphone-screenshot-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.filePlus{
+    background-image: url('/public/images/sidebar/file-plus-outline-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.bookMark{
+    background-image: url('/public/images/sidebar/book-outline-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+.bookSelf{
+    background-image: url('/public/images/sidebar/bookshelf-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+
+.desk{
+    background-image: url('/public/images/sidebar/desk-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+.connection{
+    background-image: url('/public/images/sidebar/connection-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+.account{
+    background-image: url('/public/images/sidebar/account-outline-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+.waveArrow{
+    background-image: url('/public/images/sidebar/waves-arrow-left-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+.exitArrow{
+    background-image: url('/public/images/sidebar/exit-to-app-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}
+
+
+.menuOpen{
+    background-image: url('/public/images/sidebar/menu-open-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px; 
+}

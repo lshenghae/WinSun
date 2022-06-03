@@ -1,0 +1,23 @@
+.title-lg{
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.title-sm{
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.caption{
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
